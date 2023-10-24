@@ -3,7 +3,7 @@ class fruits:
         self.type = type
         self.price = price
         self.color = color
-    def pindua(self):
+    def show(self):
         print(f"I like eating {self.type} and it costs {self.price}, color being {self.color}")
 
 #creating an object
@@ -11,5 +11,5 @@ class fruits:
 myobj =fruits("Banana","50 ksh","Yellow")
 myobj2 =fruits("Mangoes","60 ksh","Red")
 
-myobj.pindua()
-myobj2.pindua()
+myobj.show()
+myobj2.show()

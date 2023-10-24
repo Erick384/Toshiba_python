@@ -9,13 +9,13 @@ class Students:
         print("Name: %s \n Course: %s\n Gender: %s \n Age : %d" %(self.name, self.course, self.gender, self.age))
 
 
-std1 = Students("Oranjo Kipi","Computer Science","Male",30)
+std1 = Students("Erick Kamoko","Software Engineering","Male",22)
 std1.wakurugenzi()
-std2 = Students("Mario Jopa","Acturial Science","Femaale",19)
+std2 = Students("Alpha Mwaniki","Acturial Science","Male",19)
 std2.wakurugenzi()
-std3 = Students("Dennis Pulisic","Pure Mathematics","Male",27)
+std3 = Students("Githaiga Victor","Pure Mathematics","Male",16)
 std3.wakurugenzi()
-std4 = Students("Dandee Motopa","Hospitality Management","Female",33)
+std4 = Students("Jackie Alpha","Hospitality Management","Female",17)
 std4.wakurugenzi()
-std5 = Students("Banlupa Mhindi","Economics and Finance","Male",20)
+std5 = Students("Alice K","English Literature","Female",20)
 std5.wakurugenzi()
